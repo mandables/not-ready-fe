@@ -1,5 +1,17 @@
+@font-face {
+  font-family: "Sensei";
+  src: url("Sensei-Medium.otf") format("otf");
+  font-family: "Sensei";
+  src: url("Sensei-Medium.ttf");
+}
+
+body {
+  font-family: "Sensei";
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -19,4 +31,76 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.navbar {
+  /* border: 1px solid; */
+  height: 64px;
+  position: relative;
+  background-color:rgb(201, 67, 67);
+  align-items: center;
+  text-align: center;
+  /* display: flex; */
+  justify-content: space-between;
+  color: whitesmoke;
+
+}
+
+.nav-links {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 1.5em;
+  margin: 0 2vw;
+  list-style-type: none;  
+}
+
+li {
+  display: flex;
+  margin: 0 2vw;
+  list-style-type: none; 
+  cursor: pointer;
+}
+
+.main {
+  background-image: url("https://lh3.googleusercontent.com/ywhnPU1F1l4-q3D1m4K3iD3Y_5nRaz2k8vFO6kATLJG_ZuEdNez0Czb55BZaASOcOzUXvttSfQO0JNKXMvdMbs-lkKbpU5LPVX9fSe-wRdh9GsqE-2gQYSY2ulr0wU6pUbdMwthCFdy4RqA93CvaBXQRZSyrj0UgsTFhYr5qLCCKraM8rtJFZ2eQfOZVXrtHVlEEejrnptW9Q9JsCNfcDYTWtLVYxXkOsjgr2fN5IfKrbkPK-3RPKA-OiUUWkEpGFgGVR_GpKq95mGnuc1SbdpYdcALajtJFG9mEkppuOPdu1dRlN-HgcdjcszJ_lr573MzsJhU2LUb13G7dC_X6EDerz4HzbQ4-7f2G9_M9XpEKigTo76uQKGlGj50ROVnbDqLgE5e7clTRJAyZaJF1B-sSUnZrSYen2YdDFVj4fI12Y9NnUzw7_U4vOGVeFFWCWCm93rxqPSzKf5mPvxcGcORuqXtNGNc7GEa4k0gzHfAX0xs_JLnMcuHjHPEKoGEf-9pVI7IKO1gdRbb0OxapzsANSg6iZ-cbwuPyb-8nC5MTwD-jAz9JBIUcmaMh9P16Hn3QUWCm1a9yCBRkaajsJwvNSdx80m8VyyeRC3Q1Yt3SlWNPdDRYhSaI3MnlEFBJJGQtRmKUhRbfP4lfpKG-8bqrGqxFog95x4opczdW8gYLPp_ZGoDqBg=w940-h717-no");
+  background-size: cover;
+  height: 91.8vh;
+  color: whitesmoke;
+}
+
+#text {
+  background: rgba(206, 200, 200, 0.1);
+  padding: 20px;
+  position: absolute;
+  top: 100px;
+  right: 500px;
+  font-size: 2em;
+}
+
+figure {
+  background: rgba(206, 200, 200, 0.1);
+  padding: 10px;
+  position: absolute;
+  top: 500px;
+  right: 700px;
+  font-size: 5em;
+}
+
+.container {
+  background-color: rgb(34, 34, 34);
+  height: 91.8vh;
+  color: whitesmoke;
+}
+
+#about {
+  background: rgba(206, 200, 200, 0.1);
+  position: absolute;
+  top: 150px;
+  right: 300px;
+  font-size: 1.5em;
+  left: 300px;
+  padding: 20px;
+  border-radius: 10%;
 }
