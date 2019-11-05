@@ -8,7 +8,7 @@ export default class Counter extends Component {
                     How many times have I been <br /> asked about getting married?
 
                 </span>
-                <figure>1</figure>
+                <figure>{this.props.number}</figure>
 
             </div>
 

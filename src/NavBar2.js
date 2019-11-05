@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 
 export default class NavBar extends Component {
     render() {
-        const { changeComponent } = this.props
         return (
             <div>
                 <div className="navbar">
