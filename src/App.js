@@ -6,7 +6,7 @@ import About from './About'
 import webBackground from './Images/Web-background.png'
 import mobileBackground from './Images/Mobile-background.png'
 
-const eventURL = '/events'
+const eventURL = 'https://wedding-woes-backend.herokuapp.com/events'
 
 
 class App extends Component {
