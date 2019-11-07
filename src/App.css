@@ -100,7 +100,7 @@ figure {
   border-radius: 5%;
 }
 
-@media screen and (max-width: 388px) {
+@media screen and (max-width: 500px) {
   #about { width: 90%; margin: 0; overflow: hidden;}
   html {background: url('./Images/Web-background.png') no-repeat center center fixed; background-size: 600px 760px;}
   .container {height: 100%;}
