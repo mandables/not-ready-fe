@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import './App.css';
-import NavBar from './NavBar'
 import Counter from './Counter'
 import NavBar2 from './NavBar2'
 import About from './About'
 import webBackground from './Images/Web-background.png'
 import mobileBackground from './Images/Mobile-background.png'
 
-const eventURL = 'http://localhost:3001/events'
+const eventURL = '/events'
 
 
 class App extends Component {
