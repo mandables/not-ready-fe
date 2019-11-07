@@ -2,6 +2,7 @@
   "name": "not-ready",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "engines": {
     "npm": "6.8.0",
     "node": "11.4.0"
