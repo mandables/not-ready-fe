@@ -2,6 +2,10 @@
   "name": "not-ready",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.8.0",
+    "node": "11.4.0"
+  },
   "dependencies": {
     "@material-ui/core": "^4.5.2",
     "react": "^16.11.0",
