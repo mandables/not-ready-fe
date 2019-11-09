@@ -8,6 +8,7 @@
 
 body {
   font-family: "Sensei";
+  color: whitesmoke;
   
 }
 
@@ -98,6 +99,28 @@ figure {
   font-size: 1.5em;
   padding: 20px;
   border-radius: 5%;
+}
+
+.stats-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: rgb(34, 34, 34);
+  height: 91.8vh;
+}
+
+.stat {
+  text-align: center;
+  padding: 50px;
+  font-size: 60px;
+
+  width: 300px;
+  height: 200px;
+}
+
+.stat #title {
+  text-decoration: underline;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 500px) {
