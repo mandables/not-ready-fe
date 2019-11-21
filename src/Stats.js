@@ -13,7 +13,7 @@ export default class Stats extends Component {
 				<div className="stat" id="stat-two">
 					<p id="title">Most prolific day</p>
 					<br />
-					<p>02/11/2019</p>
+					<p id="date">02/11/2019</p>
 				</div>
 				<div className="stat" id="stat-three">
 					<p id="title">Inquirers on my side</p>

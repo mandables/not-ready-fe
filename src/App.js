@@ -4,6 +4,7 @@ import Counter from './Counter';
 import NavBar2 from './NavBar2';
 import About from './About';
 import Stats from './Stats';
+import Stats2 from './Stats2';
 import webBackground from './Images/Web-background.png';
 import mobileBackground from './Images/Mobile-background.png';
 
@@ -40,7 +41,7 @@ class App extends Component {
 		} else if (this.state.about) {
 			return <About />;
 		} else {
-			return <Stats stats={this.state.stats} />;
+			return <Stats2 stats={this.state.stats} />;
 		}
 	};
 

@@ -1,130 +1,152 @@
-
 @font-face {
-  font-family: "Sensei";
-  src: url("Sensei-Medium.otf") format("otf");
-  font-family: "Sensei";
-  src: url("Sensei-Medium.ttf");
+	font-family: "Sensei";
+	src: url("Sensei-Medium.otf") format("otf");
+	font-family: "Sensei";
+	src: url("Sensei-Medium.ttf");
 }
 
 body {
-  font-family: "Sensei";
-  color: whitesmoke;
-  
+	font-family: "Sensei";
+	color: whitesmoke;
 }
 
 html {
-  background: url('./Images/Web-background.png') no-repeat center center fixed;
-  /* background: url("https://lh3.googleusercontent.com/6JzD_a8f_xDYan_fSmVULDG2koEyPR1zvDiB1jHGLqWnqDSneUqecpzXPukR3AyW0MGzxamlbqe14CR-B9lvz9GrNf5JyxgozJr2odD6Arn8dYf66C4xD4D0svRMGEWo_V2CtKAf9ALnDmgIrQ5gVCQfGQjVJ91cLcPjtmpelluVXEnY0AwSNPJHiPRyR_be4BIAbgGOE2pBTJ7iOAfkHR5kmJZ6uJtZSB6d5OArh4yjDopTKJc0hR_g_FPv5S9hrpzMIrg2uarUA6E1ZN8M1224tphPNZbtnlLf-fgo-z1zhaA22a9AQBUpcntmWNbxnQZbRWux3dD_Jm0F0i1U-BAvhIk-2_hOJ7C0sSepAE1PZsZvXgBi5dhDinqc7sssySl2Yod4h1NHBaeDdrNy1xfl0NCVjLu0M0FwbYL8mAaW8e798m14mZQSUa7P3OHsi6bs7nd1RoOH59ToBmrsFMNZlbT7y8pla3HbtZfPZiAfzPIOhhzQFFUiSegmBLhAhh_io__CNCDgSCMoPEr3EJ8ipNVQeG6XWUrBHL6Irzgkq5QXYdxKLnb2RUM6zO46aXzICN_UNFyLouf9VPkY8yWTq4RF5Vd0qJx8wJ6RElDGeaso8nF80JpYHUsAMHAhuFF9iZ56xX9x1kOcPjJuNFh8-A11pmkUyM4e7DpcsQZZ2iorJN_sZQ=w940-h717-no") no-repeat center center fixed;  */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url('./Images/Web-background.png') no-repeat center center fixed;
+	/* background: url("https://lh3.googleusercontent.com/6JzD_a8f_xDYan_fSmVULDG2koEyPR1zvDiB1jHGLqWnqDSneUqecpzXPukR3AyW0MGzxamlbqe14CR-B9lvz9GrNf5JyxgozJr2odD6Arn8dYf66C4xD4D0svRMGEWo_V2CtKAf9ALnDmgIrQ5gVCQfGQjVJ91cLcPjtmpelluVXEnY0AwSNPJHiPRyR_be4BIAbgGOE2pBTJ7iOAfkHR5kmJZ6uJtZSB6d5OArh4yjDopTKJc0hR_g_FPv5S9hrpzMIrg2uarUA6E1ZN8M1224tphPNZbtnlLf-fgo-z1zhaA22a9AQBUpcntmWNbxnQZbRWux3dD_Jm0F0i1U-BAvhIk-2_hOJ7C0sSepAE1PZsZvXgBi5dhDinqc7sssySl2Yod4h1NHBaeDdrNy1xfl0NCVjLu0M0FwbYL8mAaW8e798m14mZQSUa7P3OHsi6bs7nd1RoOH59ToBmrsFMNZlbT7y8pla3HbtZfPZiAfzPIOhhzQFFUiSegmBLhAhh_io__CNCDgSCMoPEr3EJ8ipNVQeG6XWUrBHL6Irzgkq5QXYdxKLnb2RUM6zO46aXzICN_UNFyLouf9VPkY8yWTq4RF5Vd0qJx8wJ6RElDGeaso8nF80JpYHUsAMHAhuFF9iZ56xX9x1kOcPjJuNFh8-A11pmkUyM4e7DpcsQZZ2iorJN_sZQ=w940-h717-no") no-repeat center center fixed;  */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-
 .navbar {
-  /* border: 1px solid; */
-  height: 64px;
-  /* position: relative; */
-  background-color:rgb(201, 67, 67);
-  align-items: center;
-  text-align: center;
-  /* display: flex; */
-  justify-content: space-between;
-  color: whitesmoke;
-
+	/* border: 1px solid; */
+	height: 64px;
+	/* position: relative; */
+	background-color: rgb(201, 67, 67);
+	align-items: center;
+	text-align: center;
+	/* display: flex; */
+	justify-content: space-between;
+	color: whitesmoke;
 }
 
 .nav-links {
-  padding-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  font-size: 1.5em;
-  margin: 0 2vw;
-  list-style-type: none;  
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	font-size: 1.5em;
+	margin: 0 2vw;
+	list-style-type: none;
 }
 
 li {
-  display: flex;
-  margin: 0 2vw;
-  list-style-type: none; 
-  cursor: pointer;
+	display: flex;
+	margin: 0 2vw;
+	list-style-type: none;
+	cursor: pointer;
 }
 
 .main {
-  height: 90.6vh;
-  color: whitesmoke;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+	height: 90.6vh;
+	color: whitesmoke;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 }
 
 #text {
-  background: rgba(206, 200, 200, 0.1);
-  padding: 20px;
-  font-size: 2em;
-  /* align-self: auto; */
-  /* width: 50% */
-
+	background: rgba(206, 200, 200, 0.1);
+	padding: 20px;
+	font-size: 2em;
+	/* align-self: auto; */
+	/* width: 50% */
 }
 
 figure {
-  background: rgba(206, 200, 200, 0.1);
-  padding: 10px;
-  /* position: absolute; */
-  top: 500px;
-  /* right: 700px; */
-  font-size: 5em;
-  /* display: inline; */
-  align-self: center;
+	background: rgba(206, 200, 200, 0.1);
+	padding: 10px;
+	/* position: absolute; */
+	top: 500px;
+	/* right: 700px; */
+	font-size: 5em;
+	/* display: inline; */
+	align-self: center;
 }
 
 .container {
-  background-color: rgb(34, 34, 34);
-  text-align: center;
-  height: 91.8vh;
-  color: whitesmoke;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+	background-color: rgb(34, 34, 34);
+	text-align: center;
+	height: 91.8vh;
+	color: whitesmoke;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 }
 
 #about {
-  background: rgba(206, 200, 200, 0.1);
-  width: 50%;
-  font-size: 1.5em;
-  padding: 20px;
-  border-radius: 5%;
+	background: rgba(206, 200, 200, 0.1);
+	width: 50%;
+	font-size: 1.5em;
+	padding: 20px;
+	border-radius: 5%;
 }
 
 .stats-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  background-color: rgb(34, 34, 34);
-  height: 91.8vh;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	background-color: rgb(34, 34, 34);
+	height: 91.8vh;
+	text-align: center;
 }
 
 .stat {
-  text-align: center;
-  padding: 50px;
-  font-size: 60px;
+	text-align: center;
+	padding: 50px;
+	font-size: 60px;
 
-  width: 300px;
-  height: 200px;
+	width: 300px;
+	height: 200px;
+}
+tr {
+	text-align: center;
+	/* padding: 100px; */
+	font-size: 10vmin;
+
+	width: 300px;
+	height: 200px;
+}
+
+td {
+	padding: 100px;
 }
 
 .stat #title {
-  text-decoration: underline;
-  font-size: 30px;
+	text-decoration: underline;
+	font-size: 30px;
 }
 
 @media screen and (max-width: 500px) {
-  #about { width: 90%; margin: 0; overflow: hidden;}
-  html {background: url('./Images/Web-background.png') no-repeat center center fixed; background-size: 600px 760px;}
-  .container {height: 100%;}
+	#about {
+		width: 90%;
+		margin: 0;
+		overflow: hidden;
+	}
+	html {
+		background: url('./Images/Web-background.png') no-repeat center center fixed;
+		background-size: 600px 760px;
+	}
+	.container {
+		height: 100%;
+	}
+}
+
+th {
+	text-decoration: underline;
+	font-size: 6vmin;
 }
