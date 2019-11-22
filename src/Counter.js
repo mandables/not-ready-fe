@@ -5,8 +5,7 @@ export default class Counter extends Component {
         return (
             <div className="main">
                 <span id="text" >
-                    How many times have I been <br /> asked about getting married?
-
+                    Since 31/10, how many inquiries, insistences and snide comments <br /> have been made about my potential marriage?
                 </span>
                 <figure>{this.props.number}</figure>
 
