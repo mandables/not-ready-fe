@@ -14,7 +14,7 @@
     "react-transition-group": "^4.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "REACT_APP_API_ENDPOINT=http://localhost:3001/events react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
